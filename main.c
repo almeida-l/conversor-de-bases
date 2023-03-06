@@ -202,7 +202,6 @@ int main(void) {
 
         printf("%s", "Deseja sair? (S/n): ");
         scanf("%c%*c", &yes_no);
-        fflush(stdin);
         if(yes_no == 'S' || yes_no == 's') { 
             break;
         }
